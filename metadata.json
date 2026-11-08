@@ -1,0 +1,18 @@
+{
+  "projectId": "EF101-P07",
+  "title": "Classroom/Laboratory Booking System",
+  "course": "EF-101 System Understanding Projects, Fall 2026",
+  "submissionDate": "2026-11-09",
+  "type": "Python web application: Streamlit front end + Python business-logic layer + SQLite SQL database",
+  "entryPoint": "streamlit run app.py  ->  http://localhost:8501",
+  "storage": "SQLite database file (campus_booking.db), schema in db/schema.sql",
+  "demoAccounts": [
+    { "username": "student", "password": "password123", "role": "student" },
+    { "username": "admin", "password": "admin123", "role": "admin" }
+  ],
+  "group": [
+    { "name": "FILL IN: Member 1", "studentId": "FILL IN" },
+    { "name": "FILL IN: Member 2", "studentId": "FILL IN" },
+    { "name": "FILL IN: Member 3", "studentId": "FILL IN" }
+  ]
+}

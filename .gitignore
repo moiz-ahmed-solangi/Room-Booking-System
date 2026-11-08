@@ -1,0 +1,15 @@
+# the SQLite database is created automatically on first run (streamlit run app.py)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.zip

@@ -28,16 +28,6 @@ No paid services and no API keys.
 
 Requirements: **Python 3.9+** and Internet access once, for `pip install`.
 
-```bash
-git clone <this-repo-url>
-cd campus-booking-system
-python3 -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py
-```
-Open **http://localhost:8501**. The database file `campus_booking.db` is created automatically on first start and filled with the demonstration data. Stop with `Ctrl+C`.
-
-*GitHub Codespaces:* Code → Codespaces → Create. The dev container installs the requirements and starts the app on port 8501.
 
 ### Demo accounts
 | Role | Username | Password |

@@ -139,7 +139,7 @@ def seed_demo_data(conn, now=None):
         conn.executemany('INSERT INTO bookings (booking_id, room_id, user_id, book_date, start_time, end_time, '
                          'purpose, status, equipment) VALUES (?,?,?,?,?,?,?,?,?)', demo_bookings(today))
         conn.execute('INSERT INTO email_log (created_at, recipient, message) VALUES (?,?,?)',
-                     (get_now(conn).strftime('%Y-%m-%d %H:%M:%S'), 'Alex Student', 'Booking BKG-9001 approved by Dr. Sarah Admin.'))
+                     (get_now(conn).strftime('%Y-%m-%d %H:%M:%S'), 'Alex Student', 'Booking BKG-9001 approved by The Admin.'))
         conn.execute('COMMIT')
     except BaseException:
         conn.execute('ROLLBACK')

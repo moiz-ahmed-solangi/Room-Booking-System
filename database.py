@@ -94,7 +94,7 @@ def _insert_user(conn, user_id, full_name, role, password):
 
 DEMO_USERS = [
     ('student', 'Alex Student', 'student', 'password123'),
-    ('admin', 'Dr. Sarah Admin', 'admin', 'admin123'),
+    ('admin', 'The Admin', 'admin', 'admin123'),
 ]
 
 DEMO_ROOMS = [                                      # >= 10 rooms (mandatory requirement)
